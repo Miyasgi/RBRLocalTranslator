@@ -6,6 +6,21 @@ A set of Python scripts for maintaining and filling translation files offline us
 
 ---
 
+## Installation
+
+This repo must be cloned into the `Utils/translate/` folder inside the [RBRi18n](https://github.com/Miyasgi/RBRi18n) repository:
+
+```bash
+# From the root of your RBRi18n clone:
+git clone https://github.com/Miyasgi/RBRLocalTranslator.git Utils/translate
+```
+
+The `Utils/translate/` path is already in `.gitignore` of RBRi18n, so the scripts will never accidentally be committed there.
+
+The scripts expect the `RBRi18n/` translation folder to be at `../../RBRi18n/` relative to their location (i.e. two levels up from `Utils/translate/`).
+
+---
+
 ## Setup
 
 All scripts must be run from the `Utils/translate/` directory, or with the full path prefix:
