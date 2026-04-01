@@ -1,0 +1,2 @@
+argostranslate>=1.9.0
+opencc-python-reimplemented>=0.1.7
